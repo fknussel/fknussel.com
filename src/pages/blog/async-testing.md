@@ -77,3 +77,10 @@ it('promise with async await, no done', async () => {
 ```
 
 _TL;DR:_ it's fairly easy to screw up when testing asynchronous code. Make sure you carefully set up your tests the right way or else you'll end up with false positives in your suite -- and you don't want that :)
+
+## Bonus
+
+https://twitter.com/shai_reznik/status/1121406680141639688
+
+
+https://github.com/jasmine/jasmine/blob/ef3f127d270ccbbd6dde3fe161e0e85474f19369/lib/jasmine-core/jasmine.js#L6458-L6475
